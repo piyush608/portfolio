@@ -1,0 +1,95 @@
+
+
+// Portfolio Mansory style
+.portfoliomansorystyle{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .grid-container, .grid-inner {
+        position: relative;
+        overflow: hidden;
+        will-change: transform;
+    }
+    .gutter-40 {
+        margin-right: -20px;
+        margin-left: -20px;
+        margin-bottom: -40px;
+    }
+    .post-grid .entry {
+        margin-bottom: 30px;
+    }
+    .gutter-40>.col, .gutter-40>[class*=col-] {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 40px;
+    }
+    .btnmansory{
+        background-color: #3F51B5;
+        width: 100%;
+        border: 0;
+        padding: 10px;
+        color: white;
+    }
+    .grid-inner {
+        width: 100%;
+        background-size: cover;
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .grid-container, .grid-inner {
+        position: relative;
+        overflow: hidden;
+        will-change: transform;
+    }
+    .entry-image, .entry-image .slide a, .entry-image img, .entry-image>a {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .entry-image {
+        margin-bottom: 10px;
+    }
+    .entry-image, .entry-image .slide a, .entry-image img, .entry-image>a {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .entry-image img {
+        border-radius: 3px;
+    }
+    .entry-image, .entry-image .slide a, .entry-image img, .entry-image>a {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .post-grid .entry-title h2 {
+        font-size: 1.125rem;
+        letter-spacing: 0;
+        font-weight: 600;
+        background-color: white;
+        padding: 20px;
+        position: relative;
+        margin-top: -40px;
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+    .entry-title h2 a, .entry-title h3 a, .entry-title h4 a {
+        color: #333;
+    }
+    .entry-meta {
+        position: relative;
+        overflow: hidden;
+        margin-top: 10px;
+    }
+    .entry-content {
+        position: relative;
+    }
+    .entry-content {
+        margin-top: 30px;
+    }
+}

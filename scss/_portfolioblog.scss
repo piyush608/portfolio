@@ -1,0 +1,48 @@
+// Portfolio blog style
+
+.blogstyle{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: $lightgray;
+
+	.blogrow{
+		background-color: $white;
+		margin-bottom: 20px;
+	}
+	.margin{
+		padding-left: 0px;
+	}
+	.feature-box:first-child {
+		margin-top: 0;
+	}
+	.media-box {
+		padding: 0;
+		margin-left: 0;
+		margin-right: 0;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.media-box .fbox-media, .media-box .fbox-media a, .media-box .fbox-media img {
+		position: relative;
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	.media-box .fbox-media {
+		margin: 0 0 1.5rem;
+	}
+	.media-box .fbox-media, .media-box .fbox-media a, .media-box .fbox-media img {
+		position: relative;
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	
+	.btninner{
+        background-color:$gray;
+        padding: 10px;
+        color: $white;
+        width: 250px;      
+        border-top: 2px solid $orange;
+    }
+}

@@ -1,0 +1,63 @@
+// Portfolio Justify style
+
+
+
+.portfoliojustifystyle{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: $lightgray;
+
+
+    .contact-properties [class^=col-] > a {
+        display: block;
+        position: relative;
+        height: 300px;
+        border-radius: 8px;
+        background-color: $white;
+    }
+    .contact-properties [class^=col-] > a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        bottom: 0;
+        left: 0;
+        background-color:$black;
+        border-radius: 8px;
+        opacity: 0.4;
+        -webkit-transition: opacity .3s ease;
+        -o-transition: opacity .3s ease;
+        transition: opacity .3s ease;
+    }
+    .contact-properties [class^=col-] > a:hover, .product:hover .product-image, .button:hover, .feature-box.media-box.fbox-bg:hover {
+        box-shadow: 0 10px 30px -5px rgba(10, 16, 34, .2);
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    
+    .btninner:hover{
+        text-decoration: none;
+    }
+    .contact-properties [class^=col-] > a, .product .product-image, .button, .feature-box.media-box.fbox-bg {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        box-shadow: 0 1px 1px 0 rgba(10, 16, 34, .2);
+        -webkit-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease;
+        border-radius: 5px;
+    }
+    span{
+        color: white;
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+        font-size: $size;
+    }
+    
+
+}
